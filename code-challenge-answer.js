@@ -21,6 +21,7 @@ console.log(calculateSum(myArray))
 
 */ 
 
+/*
 function calculateSum (arr){
 
     let sum = arr[0]
@@ -35,5 +36,32 @@ function calculateSum (arr){
 const myArray = [23,74, 18, 69,420]
 
 console.log(calculateSum(myArray))
+*/
 
-// Writing a for loop
+
+// given any array of numbers
+// write a function that returns
+// largest number in that array without using math.max
+
+
+// how to find the largest number of the array
+
+// numbers in array are always gonna be more than zero
+
+
+
+function maxNum(array){
+    let largest = 0
+    for (i = 0; i < array.length; i++){
+    // if number at index x > the one before, keep going until end of array
+    if (array[i] > largest){
+        largest = array[i]
+    }
+    }
+    return largest
+}
+
+
+
+const myArray = [23,74, 18, 69,420]
+console.log(maxNum(myArray))
