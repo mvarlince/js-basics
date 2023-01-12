@@ -40,11 +40,7 @@ console.log(calculateSum(myArray))
 
 
 // given any array of numbers
-// write a function that returns
-// largest number in that array without using math.max
-
-
-// how to find the largest number of the array
+// write a function that returns largest number in that array without using math.max
 
 // numbers in array are always gonna be more than zero
 
@@ -61,7 +57,7 @@ function maxNum(array){
     return largest
 }
 
-
-
 const myArray = [23,74, 18, 69,420]
 console.log(maxNum(myArray))
+
+
