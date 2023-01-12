@@ -5,41 +5,42 @@
 
 // first let's setup some variables
 
-const age = 19;
+// const age = 20;
 
-// let's start with the most basic if statement
+// // let's start with the most basic if statement
 
-if (age >= 18) {
-    console.log('Welcome. Come on in!')
-}
+// if (age >= 18) {
+//     console.log('Welcome. Come on in!')
+// }
 
-// what about people that aren't yet 18?
-// let's use an if..else
 
-if (age >= 21){
-    console.log('Drink Up!')
-} else {
-    console.log('Here\'s some water.')
-}
+// // what about people that aren't yet 18?
+// // let's use an if..else
 
-// what if we have more than two possibilities.
-// then we can use an elseif
+// if (age >= 21){
+//     console.log('Drink Up!')
+// } else {
+//     console.log('Here\'s some water.')
+// }
 
-const hour = 9;
+// // what if we have more than two possibilities.
+// // then we can use an elseif
 
-if (hour < 11){
-    console.log('Good Morning')
-} else if (hour < 17){
-    console.log('Good afternoon')
-} else if (hour < 22){
-    console.log('Good evening')
-} else {
-    console.log('Go to bed!')
-}
+// const hour = 9;
 
-// when dealing with many different functions, we often use a switch
+// if (hour < 11){
+//     console.log('Good Morning')
+// } else if (hour < 17){
+//     console.log('Good afternoon')
+// } else if (hour < 22){
+//     console.log('Good evening')
+// } else {
+//     console.log('Go to bed!')
+// }
 
-const yourPet = 'sir'
+// // when dealing with many different functions, we often use a switch
+
+const yourPet = 'bird'
 
 switch(yourPet){
     case 'dog':
@@ -68,4 +69,7 @@ switch(yourPet){
 
 }
 
-// For more on ternaries, look at ternary.js
+
+
+
+// // For more on ternaries, look at ternary.js
