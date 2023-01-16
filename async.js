@@ -42,6 +42,11 @@ const squareNum = a => {
     return console.log(a*a)
 }
 // same as
-
 const squareNum2 = a => console.log(a*a)
 squareNum2(2)
+
+// CALLBACKS
+function getName(callback) {
+    let name = prompt('Enter your name ')
+    callback(name)
+}
